@@ -3,7 +3,7 @@ package domain.addition;
 class Sum {
     private int firstComponent;
     private int secondComponent;
-    private int sum;
+    private int sumResult;
 
     Sum(int firstComponent, int secondComponent) {
         this.firstComponent = firstComponent;
@@ -11,11 +11,11 @@ class Sum {
     }
 
     void sumComponents() {
-        sum = firstComponent + secondComponent;
+        sumResult = firstComponent + secondComponent;
     }
 
     int getSumResult() {
-        return sum;
+        return sumResult;
     }
 
 }
