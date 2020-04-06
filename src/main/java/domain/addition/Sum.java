@@ -5,11 +5,8 @@ class Sum {
     private int secondComponent;
     private int sum;
 
-    void setFirstComponent(int firstComponent) {
+    public Sum(int firstComponent, int secondComponent) {
         this.firstComponent = firstComponent;
-    }
-
-    void setSecondComponent(int secondComponent) {
         this.secondComponent = secondComponent;
     }
 
