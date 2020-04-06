@@ -11,7 +11,7 @@ public class SumTwoNumbersService implements SumTwoNumbersApi {
 
     public int getSumResult() {
         Sum arithmeticOperation = new Sum(firstComponentSource.getSumComponent(), secondComponentSource.getSumComponent());
-        arithmeticOperation.sum();
-        return arithmeticOperation.getSumResult();
+        int sumResult = arithmeticOperation.sum();
+        return sumResult;
     }
 }
