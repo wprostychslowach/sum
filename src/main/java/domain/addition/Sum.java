@@ -10,7 +10,7 @@ class Sum {
         this.secondComponent = secondComponent;
     }
 
-    void sumComponents() {
+    void sum() {
         sumResult = firstComponent + secondComponent;
     }
 

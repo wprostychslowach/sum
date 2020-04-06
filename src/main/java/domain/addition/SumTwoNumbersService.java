@@ -10,8 +10,8 @@ public class SumTwoNumbersService implements SumTwoNumbersApi {
     }
 
     public int getSumResult() {
-        Sum sum = new Sum(firstComponentSource.getSumComponent(), secondComponentSource.getSumComponent());
-        sum.sumComponents();
-        return sum.getSumResult();
+        Sum arithmeticOperation = new Sum(firstComponentSource.getSumComponent(), secondComponentSource.getSumComponent());
+        arithmeticOperation.sum();
+        return arithmeticOperation.getSumResult();
     }
 }
