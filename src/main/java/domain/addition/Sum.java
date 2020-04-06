@@ -5,7 +5,7 @@ class Sum {
     private int secondComponent;
     private int sum;
 
-    public Sum(int firstComponent, int secondComponent) {
+    Sum(int firstComponent, int secondComponent) {
         this.firstComponent = firstComponent;
         this.secondComponent = secondComponent;
     }
