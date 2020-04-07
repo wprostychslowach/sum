@@ -14,6 +14,6 @@ public class SumTest {
     public void testSum() {
         when(sumComponent.getSumComponent()).thenReturn(5);
         SumTwoNumbersApi sumTwoNumbersApi = new SumTwoNumbersService(sumComponent, sumComponent);
-        assertEquals(sumTwoNumbersApi.getSumResult(), 10);
+        assertEquals(sumTwoNumbersApi.sum(), 10);
     }
 }

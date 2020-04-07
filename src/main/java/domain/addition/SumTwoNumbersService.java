@@ -9,7 +9,7 @@ public class SumTwoNumbersService implements SumTwoNumbersApi {
         this.secondComponentSource = secondComponentSource;
     }
 
-    public int getSumResult() {
+    public int sum() {
         Sum arithmeticOperation = new Sum(firstComponentSource.getSumComponent(), secondComponentSource.getSumComponent());
         int sumResult = arithmeticOperation.sum();
         return sumResult;
